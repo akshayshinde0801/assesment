@@ -1,0 +1,121 @@
+body{
+margin: 0;
+padding: 0;
+   background-image: linear-gradient(   rgb(226, 215, 215),rgb(141, 247, 217));
+}
+
+
+ul{
+    float: right;
+}
+.header{
+height: 100px;
+background-color: black;
+
+
+}
+.text1{
+color: white;
+font-size: 25px;
+font-weight: 900;
+padding: 30px;
+}
+.header2{
+    float: right;
+    margin-top: -70px;
+}
+
+button{
+
+height: 35px;
+width: 65px;
+background-color: white;
+border-radius: 5px ;
+margin-left: 10px;
+}
+.box{
+    display: flex;
+    flex-wrap: nowrap;
+justify-content: space-evenly;
+text-align: center;
+
+}
+.box1{
+    height: 270px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(pink,blue,yellow);
+}
+span{
+    text-align: center;
+}
+.text2{
+    text-align: center;
+    font-size: 30px;
+font-weight: 700;
+}
+.text4{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+#a1{
+height: 100px;
+width: 200px;
+margin-top: 10px;
+}
+#a2{
+    height: 100px;
+    width: 200px;
+    margin-top: 10px;
+    }
+    #a3{
+        height: 100px;
+        width: 200px;
+        margin-top: 10px;
+
+
+        }
+        .footer{
+background-color: antiquewhite;
+height: 100px;
+        }
+        .text3{
+text-align: center;
+padding-top: 50px;
+        }
+        @media only screen and (min-width:320px) and (max-width:480px){
+button{
+    display: block;
+    width: 100%;
+    float: left;
+   
+}
+.header2{
+    margin-top: 2px;
+    margin-right: 70px;
+}
+.text2{
+text-align: center;
+width: 100%;
+float: right;
+}
+.header{
+width: 100%;
+
+
+}
+.box1{
+    margin-top: 10px;
+}
+.box{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 80px;
+    
+}
+
+
+        }
+    
